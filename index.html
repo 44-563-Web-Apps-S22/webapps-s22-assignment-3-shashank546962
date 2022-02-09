@@ -1,10 +1,99 @@
-<Doctype.html>
-    <html>
-<head></head>
-<title>Html Program</title>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lab 3 - HTML </title>
+    </head>
     <body>
-        <h1>Chennu Venkata Shashankar
-        </h1>
-    </body>
-    </html>
+        <h1><a href="https://htmlpreview.github.io/?https://github.com/44-563-Web-Apps-S22/webapps-s22-assignment-3-s546553/blob/main/bonus.html"><b>BONUS</b></a></h1>
+         <h1>Chennu Venkata Shashankar - S546962 </h1>
+         <br>
+        <h2>My favourite place to buy food is Hotel kinara in Hyderabad,India.</h2>
+        <p>Located in the <b>Attapur city of Hyderabad, </b>
+        Hotel kinara is the epitome of everything Hyderabad. 
+        kinara was establsihed in 1990, by a Hyderabadi middle class family with one motive in mind - 
+        <b>Elegance through simplicity.</b> It is located very close to the Darbar Maisamma Temple in Golkonda , India and also the famous monument golkonda is located adjacent to Darbar maisamma temple.</p>
+        <hr>
+        <h2>Directions to get to Hotel Kinara from Airport</h2>
+        <p>Closest airport to Hotel kinara is Rajiv Gandhi International  airport.</p>
+        <ol>
+            <li>To get to hotel Kinara from airport , take a shuttle no.33 at the airport.</li>
+            <li>Travel around 30 kilometers from airport.</li>
+            <li>Get to the tunnel 35 and follow the path upto 8 kilometers</li>
+            <li>At the right side you can see the pillar 390.
+                <ol style="list-style-type:lower-alpha"><li>Take a metro at 390 pillar to the right side building.</li>
+                    <li>From building take a ride to hyderguda</li>
+                </ol>
+            </li>
+            <li>At hyderguda take right and walk 500m to reach to  Hotel kinara.</li>
+        </ol>
+        <p>Food items recomemmeded to have at Hotel kinara</p>
+        <ul >
+            <li>Chicken Biryani</li>
+            <li>Mutton Biryani</li>
+            <li>chicken soup</li>
+            <li>Khaduka kheer
+            <ul >
+            <li>Kaaja</li>
+            <li>paya</li>
+            <li>boti kura</li>
+            </ul>
+            </li>
+            <li>Nalli Nihari</li>
+            <li>Chicken 65</li>
+            <li>Malai murge</li>
+            </ul>
+
+            <hr>
+            <h2>Recomemmeded sports activities</h2>
+            <p>In recent decades, sport plays an vital role in everones life as a social practice has become relevant in many different fields: in health, economy, politics, education, work and leisure. sports are very well manner body structures to have a great flexibility over the health.</p>
+            <table>
+                <tr>
+                    <th>Sport/Activities</th>
+                    <th>Location</th>
+                    <th>Amount</th>
+                </tr>
+                <tr>
+                    <td>Volleyball</td>
+                    <td>NTR Stadium</td>
+                    <td>$ 40</td>
+                </tr>
+                <tr>
+                    <td>Rugby</td>
+                    <td>outdoor Stadium</td>
+                    <td>$ 90</td>
+                </tr>
+                <tr>
+                    <td>Tennis</td>
+                    <td>Pg Stadium</td>
+                    <td>$ 50</td>
+                </tr>
+                <tr>
+                    <td>Table Tennis</td>
+                    <td>Indoor stadium</td>
+                    <td>$ 60</td>
+                </tr>
+            </table>
+            <hr>
+            <h2>Algebra - Modular Multiplicative Inverse </h2>
+            <blockquote cite="https://cp-algorithms.com/index.html">Modular Multiplicative Inverse is a Algebra, that allows answering range queries. It can answer most range queries in , but its true power is answering range minimum queries (or equivalent range maximum queries). For those queries it can compute the answer in  time.
+
+                The only drawback of this Algebra is, that it can only be used on immutable arrays. </blockquote>
+            <a href="https://cp-algorithms.com/algebra/module-inverse.html">Code Source and Description</a>
+            <pre>
+                int x, y;
+int g = extended_euclidean(a, m, x, y);
+if (g != 1) {
+    cout << "No solution!";
+}
+else {
+    x = (x % m + m) % m;
+    cout << x << endl;
+}
+inv[1] = 1;
+for(int i = 2; i < m; ++i)
+    inv[i] = m - (m/i) * inv[m%i] % m;
     
+               
+    <a href=""><b>About ME -  Shashankar</b></a>
+    </body>
+</html>
